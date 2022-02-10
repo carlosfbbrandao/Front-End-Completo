@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e Imagens</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <h2>Colocando imagens no site.</h2>
+    <h3>Abaixo um exemplo de imagem aplicada de um arquivo no computador.</h3>
+    <img src="imagens/landscape.jpg" alt="imagem do computador" width="100%">
+
+    <h3>Abaixo um exemplo de imagem aplicada a partir de um link da web.</h3>
+    <img src="https://46781.cdn.simplo7.net/static/46781/sku/quadros-por-tema-paisagens-e-natureza-quadro-retangular-paisagem-litoranea-ao-anoitecer--p-1633033574294.jpg" alt="imagem da internet" width="100%">
+
+    <h2>Colocando links no site</h2>
+    <p>Para colocar links, vamos utilizar a tag &lt;a&gt; e em seu atributo 'href' colocar o endereço para onde o link irá direcionar. Este link pode levar para uma página externa a página atual ou para uma página interna do site.</p>
+    <p>Para páginas extenas, alem do atributo 'href' vamos utilizar também o atributo 'target' e em seu valor colocamos a opção '_blank' para que seja aberta em outra página, sem sobrepor a atual. </p>
+    <p>Outro atributo que usamos também é o 'rel', que indica qual a natureza do link, e é muito importante para os sites de busca. Ele possue os seguintes valores: 'next/prev' - que seria para indicar uma página proxima ou anterior a atual; 'first/last' - que seria a primeir ou a ultima página da sequencia atual; 'external' - que seria quando o link direciona para uma página externa ao site atual; 'author' - que seria um link para uma página que descreve o autor ou fornece uma maneira de entrar em contato com ele. </p>
+
+    <a href="https://www.google.com.br/" target="_blank" rel="external">GOOGLE</a>
+
+    <h2>OBS:</h2>
+    <P>As tags para colocar imagens e para colocar links são consideradas tags in-line, ou seja, ao inserir mais de uma na sequencia elas entrarão uma ao lado da outra. Exemplo:</P>
+
+    <img src="imagens/landscape.jpg" alt="imagem do computador" width="100px">
+
+    <img src="https://46781.cdn.simplo7.net/static/46781/sku/quadros-por-tema-paisagens-e-natureza-quadro-retangular-paisagem-litoranea-ao-anoitecer--p-1633033574294.jpg" alt="imagem da internet" width="100px">
+
+    <a href="https://www.google.com.br/" target="_blank" rel="external">GOOGLE</a>
+</body>
+</html>
